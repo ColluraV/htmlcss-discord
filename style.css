@@ -276,3 +276,7 @@ footer .row {
     font-weight: 600;
     color: white;
 }
+
+footer .col-large h2{
+    padding-top: 0;
+}
