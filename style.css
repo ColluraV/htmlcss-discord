@@ -14,7 +14,6 @@
   header {
     background-image: url(img/jumbo.png);
     background-size:cover ;
-    background-repeat: inherit;
     padding-top: 1rem;
     padding-bottom: 4px;
   }
@@ -45,17 +44,15 @@
   
  /* .bg-yellow {
     background-color: #daa520;
-  }*/
+  }
   
   .bg-grey {
     background-color: #d3d3d3;
   }
   
-  .nav-links,
-  .nav-logo,
-  .nav-login {
+  .nav-links,  .nav-logo, .nav-login {
     border: 1px dashed black;
-  }
+  }*/
   
   .nav-logo{
     min-width: 150px;
@@ -88,7 +85,7 @@
   
   .hero-section .container {
     max-width: 680px;
-    border: 1px dashed black;
+    /*border: 1px dashed black;*/
     min-height: 300px;
   }
   
@@ -97,9 +94,8 @@
     justify-content: center;
   }
   
-  .col-large,
-  .col-small {
-    border: 1px dashed black;
+  .col-large, .col-small {
+   /* border: 1px dashed black;*/
     min-height: 300px;
   }
   
@@ -110,14 +106,14 @@
   
   .col-small {
     width: 30%;
-    background-color: #ffc0cb;
+    /*background-color: #ffc0cb;*/
     padding-top: 25px;
   }
   
   .box-green {
     border: 1px dashed black;
     min-height: 500px;
-    background-color: #228b22;
+    /*background-color: #228b22;*/
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -126,7 +122,7 @@
     padding-right: 15%;}
   
   footer .col {
-    border: 1px dashed white;
+   /* border: 1px dashed white;*/
     flex-grow: 1;
     background-color: #20b2aa;
     min-height: 300px;
@@ -134,7 +130,7 @@
   
   footer .col-large {
     width: 15%;
-    background-color: #f08080;
+   /* background-color: #f08080;*/
     border-color: black;
   }
   
@@ -144,18 +140,18 @@
   }
   
   .secondary-footer {
-    background-color: #7fffd4;
+    /*background-color: #7fffd4;*/
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
   }
   
-    .footer-logo,
+ /*   .footer-logo,
   .footer-btn {
     border: 1px dashed black;
     padding: 0.5rem;
     background-color: #FFB6C1;
-  }
+  }*/
 
   .li-lungo{
     min-width: 120px;
@@ -209,4 +205,8 @@
 
 .col-small, span{
     line-height: 1.5rem;
+}
+.viola{
+    background-color: #7983F5;
+
 }
