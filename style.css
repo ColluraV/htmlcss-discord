@@ -15,7 +15,7 @@ header {
     background-image: url(img/jumbo.png);
     background-size: cover;
     padding-top: 1rem;
-    padding-bottom: 4px;
+    padding-bottom: 80px;
 }
 
 header nav {
@@ -103,7 +103,6 @@ footer {
 .col-large {
     width: 50%;
     /*background-color: #1e90ff;*/
-
 }
 
 .col-small {
@@ -173,7 +172,6 @@ button {
     padding-right: 16px;
     line-height: 30px;
     text-align: center;
-    padding: auto;
 }
 
 .black {
@@ -198,7 +196,6 @@ h2 {
 span {
     color: white;
     padding: 25px;
-
 }
 
 .N1 {
@@ -233,8 +230,6 @@ span {
 .stato {
     width: 25px;
     padding-left: 5px;
-
-
 }
 
 .col.col-large h2 {
