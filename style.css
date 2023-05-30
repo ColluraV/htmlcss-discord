@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
   }
   
   html,
   body {
     font-family: Arial, Helvetica, sans-serif;
-    /* font-size: 20px; */
+    font-size: 18px; 
   }
-  
+
   header {
     background-image: url(img/jumbo.png);
     background-size:cover ;
@@ -24,6 +25,7 @@
   
   header nav .container {
     display: flex;
+    align-items: center;
   }
   
   section {
@@ -41,9 +43,9 @@
     margin: 0 auto;
   }
   
-  .bg-yellow {
+ /* .bg-yellow {
     background-color: #daa520;
-  }
+  }*/
   
   .bg-grey {
     background-color: #d3d3d3;
@@ -53,11 +55,9 @@
   .nav-logo,
   .nav-login {
     border: 1px dashed black;
-    padding: 0.5rem;
   }
   
-  .nav-logo,
-  .nav-login {
+  .nav-logo{
     min-width: 150px;
   }
   
@@ -75,7 +75,7 @@
     display: inline-block;
     padding: 0 0.3rem;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   
   .nav-login {
@@ -94,6 +94,7 @@
   
   .row {
     display: flex;
+    justify-content: center;
   }
   
   .col-large,
@@ -103,20 +104,26 @@
   }
   
   .col-large {
-    width: 60%;
-    background-color: #1e90ff;
+    width: 50%;
+    /*background-color: #1e90ff;*/
   }
   
   .col-small {
-    width: 40%;
+    width: 30%;
     background-color: #ffc0cb;
+    padding-top: 25px;
   }
   
   .box-green {
     border: 1px dashed black;
     min-height: 500px;
     background-color: #228b22;
-  }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;}
   
   footer .col {
     border: 1px dashed white;
@@ -143,9 +150,63 @@
     justify-content: space-between;
   }
   
-  .footer-logo,
+    .footer-logo,
   .footer-btn {
     border: 1px dashed black;
     padding: 0.5rem;
     background-color: #FFB6C1;
   }
+
+  .li-lungo{
+    min-width: 120px;
+  }
+   .linkbianco,.li-lungo{
+    text-decoration: white ;
+  }
+
+  button{
+    border-radius: 30px;
+    padding-left: 16px; 
+    padding-right: 16px;
+    line-height: 30px;
+    text-align: center;
+    padding: auto;
+  }
+  button .black{
+     background-color: #23272a;
+  }
+  header section .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .container h1 , h2{
+    padding-bottom: 25px;
+  }
+  span{
+    color: white;
+    padding:25px;
+
+  }
+
+  .N1{
+    background-image: url(img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+  .N2{
+    background-image: url(img/item2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+  .N3{
+    background-image: url(img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.col-small, span{
+    line-height: 1.5rem;
+}
