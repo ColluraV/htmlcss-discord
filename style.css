@@ -11,7 +11,9 @@
   }
   
   header {
-    background-color: #add8e6;
+    background-image: url(img/jumbo.png);
+    background-size:cover ;
+    background-repeat: inherit;
     padding-top: 1rem;
     padding-bottom: 4px;
   }
@@ -81,7 +83,6 @@
   }
   
   .hero-section {
-    background-color: #00008b;
     padding: 2rem 0;
   }
   
@@ -89,7 +90,6 @@
     max-width: 680px;
     border: 1px dashed black;
     min-height: 300px;
-    background-color: #ee82ee;
   }
   
   .row {
