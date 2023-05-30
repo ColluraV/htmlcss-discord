@@ -102,6 +102,7 @@
   .col-large {
     width: 50%;
     /*background-color: #1e90ff;*/
+    
   }
   
   .col-small {
@@ -124,7 +125,7 @@
   footer .col {
    /* border: 1px dashed white;*/
     flex-grow: 1;
-    background-color: #20b2aa;
+    background-color: #23272A;
     min-height: 300px;
   }
   
@@ -180,6 +181,7 @@
   }
   .container h1 , h2{
     padding-bottom: 25px;
+    padding-top: 10px;
   }
   span{
     color: white;
@@ -208,5 +210,11 @@
 }
 .viola{
     background-color: #7983F5;
-
+}
+.stato{
+    width: 25px;
+}
+.col.col-large{
+    /*display: flex;
+    flex-direction: column;*/
 }
