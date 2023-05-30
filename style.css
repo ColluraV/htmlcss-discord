@@ -213,8 +213,30 @@
 }
 .stato{
     width: 25px;
+    padding-left: 5px;
+
 }
 .col.col-large{
     /*display: flex;
     flex-direction: column;*/
+}
+
+.container .row .col{
+    text-align: start;
+}
+.social{
+    display: flex;
+    align-content: start;
+}
+footer .col ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style: none;
+    color: #7983F5;
+}
+
+footer .col ul li a{
+    text-decoration: none;
+    color: azure;
 }
